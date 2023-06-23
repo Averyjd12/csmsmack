@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Social Media Smack Down</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .images-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        
+        .vs {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        .names {
+            margin-bottom: 20px;
+        }
+        
+        .vote-button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        
+        .vote-button:hover {
+            background-color: #45a049;
+        }
+        
+        .leaderboard {
+            margin-bottom: 20px;
+        }
+        
+        .leaderboard-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .leaderboard-item {
+            margin-bottom: 5px;
+        }
+        
+        .mint-button {
+            background-color: #2196F3;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .mint-button:hover {
+            background-color: #1976D2;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Celebrity Social Media Smack Down</div>
+        
+        <div class="images-container">
+            <img class="image" src="placeholder1.jpg" alt="Contestant 1">
+            <div class="vs">VS</div>
+            <img class="image" src="placeholder2.jpg" alt="Contestant 2">
+        </div>
+        
+        <div class="names">
+            <div>Contestant 1</div>
+            <div>Contestant 2</div>
+        </div>
+        
+        <button class="vote-button" onclick="vote(1)">Vote for Contestant 1</button>
+        <button class="vote-button" onclick="vote(2)">Vote for Contestant 2</button>
+        
+        <hr>
+        
+        <div class="leaderboard hidden">
+            <div class="leaderboard-title">Leaderboard:</div>
+            <div class="leaderboard-item">1. Player 1 - $10</div>
+            <div class="leaderboard-item">2. Player 2 - $8</div>
+            <div class="leaderboard-item">3. Player 3 - $7</div
